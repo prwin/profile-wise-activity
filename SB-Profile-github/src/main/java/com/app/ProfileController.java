@@ -12,6 +12,8 @@ public class ProfileController {
 	@Value("${message}")
 	private String m;
 	
+	
+	
 	@RequestMapping("/")
 	 public String view() {
 		return m;
