@@ -19,5 +19,7 @@ public class ProductConfiguration {
 	public void prod() {
 		
 System.out.println("loaded production env  ");
+
+System.out.println(" for git demo  ");
 	}
 }
